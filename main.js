@@ -234,10 +234,19 @@ const app = {
             if (songNode || e.target.closest('.option')) {
                 //khi click vào song
                 if (songNode) {
-                    app.currentIndex = Number(songNode.dataset.index)
-                    app.loadCurrentSong()
-                    audio.play();
-                    app.render()
+                    if(app.isPlaying){
+                        app.currentIndex = Number(songNode.dataset.index)
+                        app.loadCurrentSong()
+                        audio.play();
+                        app.render()
+                    } else{
+                        app.currentIndex = Number(songNode.dataset.index)
+                        app.loadCurrentSong()
+                        app.render()
+                    }
+                    
+
+                    
                 }
 
 
