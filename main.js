@@ -63,12 +63,26 @@ const app = {
                 "https://filmisongs.xyz/wp-content/uploads/2020/07/Damn-Song-Raftaar-KrNa.jpg"
         },
         {
-            name: "Feeling You",
-            singer: "Raftaar x Harjas",
-            path: "https://mp3.vlcmusic.com/download.php?track_id=27145&format=320",
+            name: "Vì Mẹ Anh Bắt Chia Tay",
+            singer: "Miu Lê, Karik, Châu Đăng Khoa",
+            path:
+                "https://stream.nixcdn.com/NhacCuaTui2022/ViMeAnhBatChiaTay-MiuLe-7503053.mp3?st=hzIp_o9-G8FxS43mbdUxrQ&e=1666675741",
+            image: "https://avatar-ex-swe.nixcdn.com/song/2022/06/14/9/6/4/c/1655187824693.jpg"
+        },
+        {
+            name: "Em Là",
+            singer: "MONO, Onionn",
+            path: "https://stream.nixcdn.com/NhacCuaTui2026/EmLa-MONOOnionn-7736094.mp3?st=4ROREG5p-CkgzOjXm-g5xQ&e=1666753134",
             image:
-                "https://a10.gaanacdn.com/gn_img/albums/YoEWlabzXB/oEWlj5gYKz/size_xxl_1586752323.webp"
-        }
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO7bFIp7yoJyHMTSLa_68rL5xZreZ7pSxhaQ&usqp=CAU"
+        },
+        {
+            name: "Mang Tiền Về Cho Mẹ",
+            singer: "Đen",
+            path: "https://data.chiasenhac.com/down2/2215/2/2214701-52396a51/128/Mang%20Tien%20Ve%20Cho%20Me%20-%20Den_%20Nguyen%20Thao.mp3",
+            image:
+                "https://o.vdoc.vn/data/image/2021/12/31/bo-anh-che-mang-tien-ve-cho-me-1.jpg"
+        },
     ],
     render: function () {
         const htmls = this.songs.map((song, index) => {
